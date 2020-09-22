@@ -12,6 +12,17 @@
  * 
  */
 
+
+/*
+ * Function that converts old Scabble scoring by 7 different lists to a 
+ * 26-int vector whose values match with a 26-char alphabet string
+ * 
+ * Parameters:
+ *      None
+ * 
+ * Returns:
+ *      26-int vector of scores for alphabet from A-Z
+ */
 std::vector<int> old_to_new();
 
 int main()
@@ -64,16 +75,9 @@ int main()
 }
 
 
-/*
- * Function that converts old Scabble scoring by 7 different lists to a 
- * 26-int vector whose values match with a 26-char alphabet string
- * 
- * Parameters:
- *      None
- * 
- * Returns:
- *      26-int vector of scores for alphabet from A-Z
- */
+
+
+
 
 
 std::vector<int> old_to_new()
