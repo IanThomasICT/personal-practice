@@ -13,10 +13,12 @@ int main()
 {
     std::array<std::string, 4> numbers{"+1 (613)-995-0253", "613-995-0253", "1 613 995 0253", "613.995.0253"};
 
+    // Optional: Create capability to input phone number string
+
     // Go through array elements
     for (int i = 0; i < numbers.size(); i++){
         std::string str = numbers[i];
-        formatPhoneNumber(str);
+        formatPhoneNumber(str); // Optional: Convert string to int
         printPhoneNumber(str);
      }
 
