@@ -29,6 +29,7 @@ def countLetters(msg,letlist):
         i += 1
 
     # print(msg)
+    
 # Bubble sort
 def bubbleSort(pairlist):
     switched = True
