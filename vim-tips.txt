@@ -1,0 +1,53 @@
+This is a test to see how Vim works
+J to go down
+K to go up
+
+function loop()
+{
+	1. add todolist
+	2. display todos
+	3. cross off todos
+	i. show number of active todos
+	5. filter all/active/complete
+	6. delete todo
+
+}
+0 is used to jump to the beginning of a line
+a is used to insert NEXT to the selected character, A is used to append to the end of the line
+r is used to replace the underlined value
+w is used to move to the next word
+o is used to create and write to the a new line below
+f is used to find a character in a line, t is used to go right before the character in a line
+cw is used to change everything to the right of the selected word
+ct is used to change everything up to a given character
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
